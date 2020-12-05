@@ -1,0 +1,10 @@
+syntax="proto2";
+
+package encap;
+
+message Mensagem {
+	
+	required string conteudo = 1;
+	optional int32 id = 2;
+
+} 
